@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sounds</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <button class='stp' onclick='stop()'>Stop Rain</button>
+
+    <div class="keys">
+    <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">Rain</span>
+    </div>
+    <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">Car</span>
+    </div>
+    <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">Walk</span>
+    </div>
+    <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">Bird</span>
+    </div>
+    <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">Wolf</span>
+    </div>
+    <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">Owl</span>
+    </div>
+    <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">Seagull</span>
+    </div>
+    <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">Ocean</span>
+    </div>
+    </div>
+    <audio data-key='65' id='sound' src='sounds/rain.mp3'></audio>
+    <audio data-key="83"  src="sounds/car.wav"></audio>
+    <audio data-key="68"  src="sounds/walk.wav"></audio>
+    <audio data-key="70"  src="sounds/bird.wav"></audio>
+    <audio data-key="71"  src="sounds/wolf.mp3"></audio>
+    <audio data-key="72"  src="sounds/owl.wav"></audio>
+    <audio data-key="74"  src="sounds/seagull.wav"></audio>
+    <audio data-key="75" src="sounds/ocean.wav"></audio>
+    <script src='main.js'> </script>
+</body>
+</html>
