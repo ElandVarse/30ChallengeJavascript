@@ -1,5 +1,6 @@
+
 html {
-  background: #018DED;
+  background: rgb(1, 141, 237);
   background-size: cover;
   font-family: 'helvetica neue';
   text-align: center;
@@ -48,12 +49,15 @@ body {
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
-
-.bolinha{
-    width: 10px;
-    height: 10px;
-    border-radius:100%;
-    background-color: black;
-    position: absolute;
-    margin-left: 49.6%;
+/* Style Digital Clock */
+.digital{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #f3f3f3;
+  font-size: 60px;
+  font-family: 'Orbitron';
+  background-color: rgba(7, 24, 36, 0.3);
+  letter-spacing: 7px;
 }
